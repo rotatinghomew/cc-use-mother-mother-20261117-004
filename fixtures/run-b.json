@@ -1,0 +1,21 @@
+{
+  "study_id": "demo-study",
+  "run_id": "round-b",
+  "protocol_version": 2,
+  "instrument_id": "reader-01",
+  "unit": "signal",
+  "reference_cohort": "baseline",
+  "control_range": {"min": 0.8, "max": 1.3},
+  "min_replicates": 2,
+  "calibration": {"id": "cal-b", "offset": 0.0, "valid_from": "2026-11-01T00:00:00Z", "valid_until": "2026-11-02T00:00:00Z", "max_abs_offset": 0.2},
+  "measurements": [
+    {"id": "b-c1", "sample_id": "control-1", "cohort": "controls", "replicate": 1, "value": 1.01, "unit": "signal", "measured_at": "2026-11-01T11:00:00Z", "role": "control"},
+    {"id": "b-c2", "sample_id": "control-2", "cohort": "controls", "replicate": 2, "value": 1.03, "unit": "signal", "measured_at": "2026-11-01T11:01:00Z", "role": "control"},
+    {"id": "b-b1", "sample_id": "base-1", "cohort": "baseline", "replicate": 1, "value": 2.0, "unit": "signal", "measured_at": "2026-11-01T11:02:00Z", "role": "sample"},
+    {"id": "b-b2", "sample_id": "base-2", "cohort": "baseline", "replicate": 2, "value": 2.2, "unit": "signal", "measured_at": "2026-11-01T11:03:00Z", "role": "sample"},
+    {"id": "b-b3", "sample_id": "base-3", "cohort": "baseline", "replicate": 3, "value": 1.9, "unit": "signal", "measured_at": "2026-11-01T11:04:00Z", "role": "sample"},
+    {"id": "b-x1", "sample_id": "candidate-1", "cohort": "candidate", "replicate": 1, "value": 3.1, "unit": "signal", "measured_at": "2026-11-01T11:05:00Z", "role": "sample"},
+    {"id": "b-x2", "sample_id": "candidate-2", "cohort": "candidate", "replicate": 2, "value": 3.2, "unit": "signal", "measured_at": "2026-11-01T11:06:00Z", "role": "sample"},
+    {"id": "b-x3", "sample_id": "candidate-3", "cohort": "candidate", "replicate": 3, "value": 3.0, "unit": "signal", "measured_at": "2026-11-01T11:07:00Z", "role": "sample"}
+  ]
+}
